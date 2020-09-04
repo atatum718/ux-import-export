@@ -1,7 +1,7 @@
-import { Person, render } from "./personalProfile.js";
+import { Person, render } from "./personalProfile";
 
 let people = [
-  new Person("Bob", "imgs/bob-ross.jpg"),
+  new Person("Bob", "./bob-ross.jpg"),
   new Person("Frida", "../imgs/frida-kahlo.jpg"),
   new Person("Dali", "../imgs/dali.jpg"),
 ];
